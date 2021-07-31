@@ -233,13 +233,13 @@ body,.bombas{
    
 }
 .candy_izq{
-    background-image: url('./psd/candy_verde.png');
+    background-image: url('./img/candy_verde.png');
     left: 200px;
     transform: rotate(0deg);
     animation: rotacion infinite 4s linear reverse;
 }
 .candy_drch{
-    background-image: url('./psd/candy_verde.png');
+    background-image: url('./img/candy_verde.png');
     left: 680px;
     transform-origin: 50% 50%;
     transform: rotate(0deg);
