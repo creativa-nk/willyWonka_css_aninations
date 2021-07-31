@@ -22,7 +22,7 @@ body,.bombas{
     z-index: 30;
     opacity: 0;
     transform: scale(0);
-    background-image: url('../img/nube-boom.png');
+    background-image: url('./img/nube-boom.png');
     filter: drop-shadow(5px 0px 5px rgba(34, 34, 34, 0.856));
     background-size:50%;
     background-position: center;
@@ -37,7 +37,7 @@ body,.bombas{
     z-index: 30;
     opacity: 0;
     transform: scale(0);
-    background-image: url('../img/wow-booom.png');
+    background-image: url('./img/wow-booom.png');
     filter: drop-shadow(5px 0px 5px rgba(34, 34, 34, 0.856));
     background-size:30%;
     background-position: center;
@@ -86,7 +86,7 @@ body,.bombas{
 }
 
 .tellon_arriba{
-    background-image: url('../img/telon.png');
+    background-image: url('./img/telon.png');
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -125,7 +125,7 @@ body,.bombas{
 }
 
 .cortina_izq{
-    background-image: url('../img/cortina_izq.png');
+    background-image: url('./img/cortina_izq.png');
     z-index: -1;
     left: -570px; /* left: 5px; !!!!!!!!!!!!!!!! */
     transform: translate(47%);
@@ -133,7 +133,7 @@ body,.bombas{
 }
 .cortina_drcha{
     /* background-color: cornsilk; */
-    background-image: url('../img/cortina_drcha.png');
+    background-image: url('./img/cortina_drcha.png');
     z-index: -2;
     left: 1055px; /*  left: 540px;!!!!!!!!!!!!!!!! */
     transform: translate(-47%);
@@ -153,13 +153,13 @@ body,.bombas{
     filter: drop-shadow(5px 0px 15px rgba(5, 5, 5, 0.856));
 }    
 .suelo1{
-    background-image: url('../img/escenario_suelo1.png');
+    background-image: url('./img/escenario_suelo1.png');
     z-index: -3;
     animation: moverseX 1s infinite alternate linear;
     
 }
 .suelo2{
-    background-image: url('../img/escenario_suelo2.png');
+    background-image: url('./img/escenario_suelo2.png');
     z-index: -5;
     top: 35px;
     transform: translateY(47%);
@@ -168,7 +168,7 @@ body,.bombas{
 
 .palitos_de_caramelo{
     /* background-color: burlywood; */
-    background-image: url('../img/palitos-de_caramelo2.png');
+    background-image: url('./img/palitos-de_caramelo2.png');
     z-index: -4;
     transform: translateY(100%);
     animation: aparecer_de_abajo 7s 12s forwards/* , saltos 1s 14.5s infinite ease */;
@@ -184,7 +184,7 @@ body,.bombas{
 }
 
 .medio{
-    background-image: url('../img/torre_circulos_rosas.png');
+    background-image: url('./img/torre_circulos_rosas.png');
     z-index: -6;
 }
 
@@ -204,14 +204,14 @@ body,.bombas{
     }
 /* ----------------ENGRANAJES GRANDES----------------------------- */
 .circulo_drcha{
-    background-image: url('../img/escenario_front_circulo_drcha.png');
+    background-image: url('./img/escenario_front_circulo_drcha.png');
     z-index: -4;
     left: 400px;
     transform: translate(-37%);
     animation: abrir 8s 1.5s forwards;
 } 
 .circulo_izq{
-    background-image: url('../img/escenario_front_circulo_izq.png');
+    background-image: url('./img/escenario_front_circulo_izq.png');
     z-index: -4;
     right: 400px;
     transform: translate(37%);
@@ -233,13 +233,13 @@ body,.bombas{
    
 }
 .candy_izq{
-    background-image: url('../psd/candy_verde.png');
+    background-image: url('./psd/candy_verde.png');
     left: 200px;
     transform: rotate(0deg);
     animation: rotacion infinite 4s linear reverse;
 }
 .candy_drch{
-    background-image: url('../psd/candy_verde.png');
+    background-image: url('./psd/candy_verde.png');
     left: 680px;
     transform-origin: 50% 50%;
     transform: rotate(0deg);
@@ -254,7 +254,7 @@ body,.bombas{
 
 /* ------------------FONDO------------------------------- */    
 .fondo{
-    background-image: url('../img/fondo_candies.png');
+    background-image: url('./img/fondo_candies.png');
     opacity: 0.6;
     z-index: -15;
     transform: translateY(-40%);
@@ -282,7 +282,7 @@ body,.bombas{
     height: 100px;
 }
 .podium_izq{
-    background-image:url('../img/ondas_azul.png');  
+    background-image:url('./img/ondas_azul.png');  
     transform: translateY(130%);
     animation: slide 10s linear infinite;
 }
@@ -304,7 +304,7 @@ body,.bombas{
 }
 
 .podium_drch{
-    background-image:url('../img/ondas_rosa.png');
+    background-image:url('./img/ondas_rosa.png');
     transform: translateY(200%);
     animation: slide 10s linear infinite reverse;
 }
@@ -358,7 +358,7 @@ body,.bombas{
     height: 100px;
 }
 .podium_izq_peq{
-    background-image: url('../img/ondas_rosa.png');
+    background-image: url('./img/ondas_rosa.png');
     transform: translateY(200%);
     animation: slide 10s linear infinite reverse;
 }
@@ -367,7 +367,7 @@ body,.bombas{
     top: -200px;
 }
 .podium_drch_peq{
-    background-image: url('../img/ondas_azul.png');
+    background-image: url('./img/ondas_azul.png');
     transform: translateY(200%);
     animation: slide 10s linear infinite;
 }
@@ -402,7 +402,7 @@ body,.bombas{
     left: 80px;
   }
   .palo_izq, .palo_drch{
-    background-image:url('../img/rayas.png');
+    background-image:url('./img/rayas.png');
     background-size: 20%;
     width: 1800px;
     height: 100%;
@@ -432,7 +432,7 @@ body,.bombas{
 } */
 .silla{
     top: 60px;
-    background-image: url('../img/silla.png');
+    background-image: url('./img/silla.png');
     z-index: -10;
     transform: translateY(97%);
     animation: aparecer_de_abajo 10s 23s forwards ease-in-out;
